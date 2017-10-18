@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/faboptions_pin"
+        android:icon="@mipmap/ic_fiber_pin_white_24dp"
+        android:title="Add Pin"/>
+
+    <item
+        android:id="@+id/faboptions_card"
+        android:icon="@mipmap/ic_payment_white_24dp"
+        android:title="Add Card"/>
+</menu>

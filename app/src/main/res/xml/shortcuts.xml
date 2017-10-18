@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/shortcut_add_pin"
+        android:shortcutDisabledMessage="@string/shortcutCreatePinDisabledMessage"
+        android:shortcutId="pin"
+        android:shortcutLongLabel="@string/shortcutCreatePinLongLabel"
+        android:shortcutShortLabel="@string/shortcutCreatePinShortLabel">
+        <intent
+            android:action="com.mgenio.jarvisofficedoor.CREATE_PIN"
+            android:targetClass="com.mgenio.jarvisofficedoor.activities.DrawerActivity"
+            android:targetPackage="com.mgenio.jarvisofficedoor"/>
+        <categories android:name="android.shortcut.pin"/>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/shortcut_add_card"
+        android:shortcutDisabledMessage="@string/shortcutAddCardDisabledMessage"
+        android:shortcutId="card"
+        android:shortcutLongLabel="@string/shortcutAddCardLongLabel"
+        android:shortcutShortLabel="@string/shortcutAddCardShortLabel">
+        <intent
+            android:action="com.mgenio.jarvisofficedoor.PROVISION_CARD"
+            android:targetClass="com.mgenio.jarvisofficedoor.activities.DrawerActivity"
+            android:targetPackage="com.mgenio.jarvisofficedoor"/>
+        <categories android:name="android.shortcut.card"/>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/shortcut_open_door"
+        android:shortcutDisabledMessage="@string/shortcutOpenDoorDisabledMessage"
+        android:shortcutId="open"
+        android:shortcutLongLabel="@string/shortcutOpenDoorLongLabel"
+        android:shortcutShortLabel="@string/shortcutOpenDoorShortLabel">
+        <intent
+            android:action="com.mgenio.jarvisofficedoor.OPEN_DOOR"
+            android:targetClass="com.mgenio.jarvisofficedoor.activities.DrawerActivity"
+            android:targetPackage="com.mgenio.jarvisofficedoor"/>
+        <categories android:name="android.shortcut.open"/>
+    </shortcut>
+</shortcuts>

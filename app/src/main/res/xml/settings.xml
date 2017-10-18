@@ -1,0 +1,26 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/location"
+        android:title="@string/inline_preferences_title">
+
+        <CheckBoxPreference
+            android:key="@string/preferences_security"
+            android:summary="@string/summary_security_preference"
+            android:title="@string/title_security_preference"/>
+
+        <CheckBoxPreference
+            android:key="@string/preferences_notifications"
+            android:summary="@string/summary_notifications_preference"
+            android:title="@string/title_notifications_preference"/>
+
+        <EditTextPreference
+            android:dialogTitle="@string/dialog_title_edittext_preference"
+            android:key="@string/preferences_millis"
+            android:summary="@string/summary_edittext_preference"
+            android:title="@string/title_edittext_preference"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

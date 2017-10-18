@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="My Functions">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_spotify"
+                    android:icon="@mipmap/ic_album_white_24dp"
+                    android:title="@string/nav_boom_music"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Admin Functions">
+        <menu>
+            <item
+                android:id="@+id/nav_view_all_pins"
+                android:icon="@mipmap/ic_fiber_pin_white_24dp"
+                android:title="@string/nav_view_all_pins"/>
+            <item
+                android:id="@+id/nav_view_all_cards"
+                android:icon="@mipmap/ic_payment_white_24dp"
+                android:title="@string/nav_view_all_cards"/>
+            <item
+                android:id="@+id/nav_manage_access_keys"
+                android:icon="@mipmap/ic_vpn_key_white_24dp"
+                android:title="@string/nav_manage_access_keys"/>
+        </menu>
+    </item>
+</menu>

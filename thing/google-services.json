@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "448727593755",
+    "firebase_url": "https://jarvisofficedoor.firebaseio.com",
+    "project_id": "jarvisofficedoor",
+    "storage_bucket": "jarvisofficedoor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448727593755:android:48fc57b4135545b6",
+        "android_client_info": {
+          "package_name": "com.mgenio.jarvisofficedoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448727593755-jed22gas1v8er29qpguqfcgic3bie83i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3ahLYrkeuQ3Axz_h3vXxKr0hCzDz1LGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
